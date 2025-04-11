@@ -41,3 +41,23 @@ let agregarTareaBtn = document.getElementById("agregarTareaBtn"); // Buscando un
 agregarTareaBtn.addEventListener("click", agregarTarea); 
 
 // NOTA: Cuando trabajamos con addEventListener, los eventos NO deben llevar la palabra "on" al inicio.
+
+// Función -> Un bloque de código reutilizable.
+function suma(a, b){
+    return a + b;
+}
+suma(5, 1);
+
+// Funciones anónimas: Funciones que no tienen nombre.
+// En JS se les conoce como funciones flecha.
+// La idea de estas funciones es que solamente se utilicen una vez dentro de nuestro código.
+/*
+    (param1, param2, param3, ..., paramN) => {
+        // Código a ejecutar.
+    }
+*/
+
+let funcionSuma = (a, b) => {
+    return a + b;
+}
+funcionSuma(5, 1);
