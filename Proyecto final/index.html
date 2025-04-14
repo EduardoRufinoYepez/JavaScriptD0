@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seguimiento de Libros - Comentarios</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Seguimiento de Libros</h1>
+      <p>Comparte tus comentarios sobre los libros que estás leyendo</p>
+
+      <form id="commentForm" class="comment-form">
+        <div class="form-group">
+          <label for="commentText">Tu comentario:</label>
+          <textarea
+            id="commentText"
+            name="commentText"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Agregar Comentario</button>
+      </form>
+
+      <div id="commentsSection" class="comments-section">
+        <h2>Comentarios Recientes</h2>
+        <div id="commentsList" class="comments-list">
+          <!-- Los comentarios se agregarán aquí dinámicamente -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
