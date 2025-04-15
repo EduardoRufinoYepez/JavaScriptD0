@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ejercicios JavaScript</h1>
+
+      <!-- Sección de comentarios que ya teníamos -->
+      <section class="exercise-section">
+        <h2>Seguimiento de Libros - Comentarios</h2>
+        <form id="commentForm" class="comment-form">
+          <div class="form-group">
+            <label for="commentText">Tu comentario:</label>
+            <textarea
+              id="commentText"
+              name="commentText"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Agregar Comentario</button>
+        </form>
+        <div id="commentsSection" class="comments-section">
+          <h3>Comentarios Recientes</h3>
+          <div id="commentsList" class="comments-list"></div>
+        </div>
+      </section>
+
+      <!-- Sección para los ejercicios -->
+      <section class="exercise-section">
+        <h2>Ejercicios</h2>
+        <div class="exercise-buttons">
+          <button onclick="ejercicio1()">Ejercicio 1</button>
+          <button onclick="ejercicio2()">Ejercicio 2</button>
+          <button onclick="ejercicio3()">Ejercicio 3</button>
+          <button onclick="ejercicio4()">Ejercicio 4</button>
+        </div>
+        <div id="exerciseResults" class="exercise-results"></div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

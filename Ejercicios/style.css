@@ -1,0 +1,40 @@
+/* Estilos anteriores se mantienen y agregamos estos nuevos */
+
+.exercise-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+}
+
+.exercise-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.exercise-buttons button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.exercise-buttons button:hover {
+    background-color: #45a049;
+}
+
+.exercise-results {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #4CAF50;
+    font-family: monospace;
+    white-space: pre-line;
+}
+
+/* Mantenemos todos los estilos anteriores */
